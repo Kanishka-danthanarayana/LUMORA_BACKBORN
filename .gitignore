@@ -1,0 +1,30 @@
+# ======================
+# Node / npm
+# ======================
+node_modules/
+npm-debug.log*
+
+# ======================
+# Build & Release outputs
+# These are large compiled binaries — not needed in source control
+# ======================
+dist/
+release/
+
+# ======================
+# Vite
+# ======================
+*.local
+.vite/
+.vite-temp/
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
